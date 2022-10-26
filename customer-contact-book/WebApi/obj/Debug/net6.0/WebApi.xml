@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.ContactsController.GetAll(System.String,System.String,System.String)">
+            <summary>
+            Returns all exising contacts, filters can be applied.
+            </summary>
+            <param name="firstName">Filter by first name.</param>
+            <param name="lastName">Filter by first name.</param>
+            <param name="phoneNumber">Filter by first name.</param>
+        </member>
+        <member name="M:WebApi.Controllers.ContactsController.Get(System.Int64)">
+            <summary>
+            Get contact by id.
+            </summary>
+            <param name="contactId">Contact id.</param>
+        </member>
+        <member name="M:WebApi.Controllers.ContactsController.Post(WebApi.Models.ContactCreateModel)">
+            <summary>
+            Create a new contact.
+            </summary>
+        </member>
+        <member name="T:WebApi.Models.ContactCreateModel">
+            <summary>
+            Contact Create/Update Model.
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.ContactCreateModel.FirstName">
+            <summary>
+            Contact first mame.
+            </summary>
+            <example>Will</example>
+        </member>
+        <member name="P:WebApi.Models.ContactCreateModel.LastName">
+            <summary>
+            Contact last mame.
+            </summary>
+            <example>Smith</example>
+        </member>
+        <member name="P:WebApi.Models.ContactCreateModel.PhoneNumber">
+            <summary>
+            Contact phone number.
+            </summary>
+            <example>+10987654321</example>
+        </member>
+        <member name="T:WebApi.Models.ContactModel">
+            <summary>
+            Contact Model.
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.ContactModel.Id">
+            <summary>
+            Contact identifier.
+            </summary>
+            <example>123</example>
+        </member>
+        <member name="P:WebApi.Models.ContactModel.FirstName">
+            <summary>
+            Contact first mame.
+            </summary>
+            <example>Will</example>
+        </member>
+        <member name="P:WebApi.Models.ContactModel.LastName">
+            <summary>
+            Contact last mame.
+            </summary>
+            <example>Smith</example>
+        </member>
+        <member name="P:WebApi.Models.ContactModel.PhoneNumber">
+            <summary>
+            Contact phone number.
+            </summary>
+            <example>+10987654321</example>
+        </member>
+        <member name="T:WebApi.Models.GroupCreateModel">
+            <summary>
+            Group Create/Update Model.
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.GroupCreateModel.Name">
+            <summary>
+            Group name.
+            </summary>
+            <example>Family</example>
+        </member>
+        <member name="T:WebApi.Models.GroupModel">
+            <summary>
+            Group Model.
+            </summary>
+        </member>
+        <member name="P:WebApi.Models.GroupModel.Id">
+            <summary>
+            Group identifier.
+            </summary>
+            <example>321</example>
+        </member>
+        <member name="P:WebApi.Models.GroupModel.Name">
+            <summary>
+            Group name.
+            </summary>
+            <example>Family</example>
+        </member>
+        <member name="P:WebApi.Models.GroupModel.MemberCount">
+            <summary>
+            Amount of members in this group.
+            </summary>
+            <example>7</example>
+        </member>
+    </members>
+</doc>

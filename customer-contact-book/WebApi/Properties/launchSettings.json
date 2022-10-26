@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "WebApi": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5246",
+      "launchBrowser": true,
+      "launchUrl": "swagger"
+    }
+  }
+}
